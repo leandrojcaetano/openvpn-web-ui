@@ -14,9 +14,9 @@ auth {{ .Auth }}
 dh {{ .Dh }}
 
 ifconfig-pool-persist {{ .IfconfigPoolPersist }}
-server 192.168.255.0 255.255.255.0
+server 192.168.111.0 255.255.255.0
 ### Route Configurations Below
-route 192.168.254.0 255.255.255.0
+route 192.168.111.0 255.255.255.0
 
 ### Push Configurations Below
 push "block-outside-dns"
